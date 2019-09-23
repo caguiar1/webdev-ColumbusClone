@@ -1,1 +1,33 @@
-/* CSS code  */
+body{
+    padding: 0px;
+    margin: 0px; 
+    font-family: 'Open Sans', sans-serif;
+    background-color: #333333;
+}
+
+    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #10243B;
+  }
+  
+li {
+    
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.text-r{
+    color: lightblue;
+    font-size: 12px;
+    margin-top: -10px;
+
+}
