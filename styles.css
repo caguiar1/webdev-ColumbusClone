@@ -9,6 +9,7 @@ nav {
     display: inline-block;
     width: 100vw;
     height: 3vh;
+    margin: 0px;
 }
     
 ul {
@@ -52,10 +53,93 @@ nav div#left-side{
     margin-top: 0.4vh;
 }
 
-#carousel{
+#hero{
     background-image: url(images/graduation.jpg);
     width: 100vw;
-    height: 97vh;;
+    height: 97vh;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+/* Explore CCHS */
+
+div#exploreheader{
+    height: 100px;
+    width: 100vw;
+    text-align: center;
+    background-color: #10243B;
+}
+
+div#divider{
+    width: 100vw;
+    height: 10px;
+    background-color: #a3dde8;
+}
+
+h2{
+    margin: 0px;
+    color: white;
+    padding-top: 30px;
+}
+
+div#exploreboxes{
+    height: 400px;
+    width: 100vw;
+    background-color: white;
+    display: inline-block;
+}
+
+.patriotplaza{
+    height: 100%;
+    width: 24.55%;
+    background-image: url(images/patriots%20plaza.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+.college{
+    height: 100%;
+    width: 24.55%;
+    background-image: url(images/college.png);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+.ccnn{
+    height: 100%;
+    width: 24.55%;
+    background-image: url(images/ccnn.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+.ccnn-live{
+    height: 100%;
+    width: 24.55%;
+    background-image: url(images/ccnn\ live.png);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    /* scroll-behavior: smooth; */
+ }
+
+ /* Part Below EXPLORE CCHS */
+
+div#container{
+    padding: 30px 0px 20px;
+    background-color: #FFFFFF;
+}
+
+h2.style{
+    font: 48px "PT Sans Narrow", sans-seriff;
+    color: #333333;
+    text-align: center;
 }
