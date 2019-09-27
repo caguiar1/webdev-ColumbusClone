@@ -54,7 +54,7 @@ nav div#left-side{
 }
 
 #hero{
-    background-image: url(images/graduation.jpg);
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/graduation.jpg);
     width: 100vw;
     height: 97vh;
     background-repeat: no-repeat;
@@ -136,10 +136,39 @@ a {
 div#container{
     padding: 30px 0px 20px;
     background-color: #FFFFFF;
+    text-align: center;
 }
 
 h2.style{
     font: 48px "PT Sans Narrow", sans-seriff;
     color: #333333;
     text-align: center;
+    padding-bottom: 30px;
+}
+
+h3.title{
+    color: red;
+    margin-bottom: 10px;
+    font: 30px "PT Sans Narrow", sans-serif;
+}
+
+.textslide{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    width: 20%;
+}
+
+.imagescarosuel{
+    
+    height: 282px;
+    width: 287.69px;
+}
+
+div.description{
+    color: #333333;
+    font: "Open Sans", sans-seriff;
+    font-size: 16px;
+    margin: 10px 0px;
 }
