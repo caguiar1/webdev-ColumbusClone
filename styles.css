@@ -168,7 +168,7 @@ h3.title{
 
 div.description{
     color: #333333;
-    font: "Open Sans", sans-seriff;
+    font-family: "Open Sans", sans-seriff;
     font-size: 16px;
     margin: 10px 0px;
 }
