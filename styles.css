@@ -3,12 +3,12 @@ body{
     margin: 0px; 
     font-family: 'Open Sans', sans-serif;
     background-color: #333333;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 nav {
     display: inline-block;
-    width: 100vw;
+    width: 99vw;
     height: 3vh;
     margin: 0px;
 }
@@ -140,16 +140,44 @@ div#container{
 }
 
 h2.style{
-    font: 48px "PT Sans Narrow", sans-seriff;
+    font-size: 48px;
+    font-family: "PT Sans Narrow", sans-serif;
     color: #333333;
     text-align: center;
     padding-bottom: 30px;
 }
 
+h2.style2{
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    color: #00344C;
+    text-align: center;
+    margin: 0px 0px 30px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+
 h3.title{
     color: red;
     margin-bottom: 10px;
-    font: 30px "PT Sans Narrow", sans-serif;
+    font-size: 30px;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+#informationbox{
+    background-color: #10243B;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+
+#infotext{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    font-size: 2.25em;
+    color: white;
 }
 
 .textslide{
@@ -168,9 +196,26 @@ h3.title{
 
 div.description{
     color: #333333;
-    font-family: "Open Sans", sans-seriff;
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     margin: 10px 0px;
+    margin-bottom: 80px;
+}
+
+#schoolslist{
+    margin-top: 5px;
+    background-color: #FFFFFF;
+}
+
+#schoolimages img{
+    display: inline-block;
+    text-align: center;
+    margin-right: 4%;
+    margin-left: 4%;
+    padding-bottom: 50px;
+
+    
+    
 }
 
 /* Footer */
@@ -206,12 +251,21 @@ height: 50px;
     color: rgb(163, 221, 232);
     display: inline-block;
     padding-right: 100px;
-    margin-left: 500px;
+    margin-left: 150px;
 }
 
 #creaturesTwo{
     color: rgb(163, 221, 232);
     display: inline-block;
-
     
+}
+
+p{
+    margin-top: 2%;
+    color: white;
+    opacity: .5;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
 }
