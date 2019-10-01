@@ -3,6 +3,7 @@ body{
     margin: 0px; 
     font-family: 'Open Sans', sans-serif;
     background-color: #333333;
+    /* overflow-x: hidden; */
 }
 
 nav {
@@ -170,4 +171,47 @@ div.description{
     font-family: "Open Sans", sans-seriff;
     font-size: 16px;
     margin: 10px 0px;
+}
+
+/* Footer */
+
+#footernav{
+background-color: #10243B;
+width: 100vw;
+height: 50px;
+
+
+}
+
+.leftside{
+    float: left;
+    padding-left: 10%;
+
+    
+}
+
+.rightside{
+    float: right;
+    padding-right: 10%;
+
+}
+
+#creatures h4{
+    color: rgb(163, 221, 232);
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.connectus{
+    color: rgb(163, 221, 232);
+    display: inline-block;
+    padding-right: 100px;
+    margin-left: 500px;
+}
+
+#creaturesTwo{
+    color: rgb(163, 221, 232);
+    display: inline-block;
+
+    
 }
